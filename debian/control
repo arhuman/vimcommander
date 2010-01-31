@@ -1,0 +1,18 @@
+Source: vimcommander
+Section: utils
+Priority: extra
+Maintainer: Leandro Lisboa Penz <llpenz@gmail.com>
+Build-Depends: debhelper (>= 7.0.50), make (>= 3.81-5), vim (>= 7), sed (>= 3)
+Standards-Version: 3.8.3
+Vcs-Browser: http://github.com/lpenz/vimcommander
+Vcs-Git: git://github.com/lpenz/vimcommander.git
+Homepage: http://github.com/lpenz/vimcommander
+
+Package: vimcommander
+Architecture: any
+Depends: ${misc:Depends}, vim-addon-manager (>= 0.4)
+Description: totalcommander-like two-panel tree file explorer for vim
+ vimcommander opens two panels of file explorers on the top half of the vim
+ screen and allows copying, moving and renaming of files.
+ The look and feel is inspired in total-commander for windows.
+

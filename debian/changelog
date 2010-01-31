@@ -1,0 +1,5 @@
+vimcommander (0.78-2) unstable; urgency=low
+
+  * Initial debian release.
+
+ -- Leandro Lisboa Penz <llpenz@gmail.com>  Sun, 31 Jan 2010 21:46:09 -0200
