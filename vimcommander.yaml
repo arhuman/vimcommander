@@ -1,0 +1,6 @@
+addon: vimcommander
+description: "Total-commander-like two-panel file explorer for vim"
+basedir: /usr/share/vim/addons
+files:
+  - plugin/vimcommander.vim
+  - doc/vimcommander.txt
