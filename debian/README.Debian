@@ -1,0 +1,14 @@
+vimcommander for Debian
+-----------------------
+
+This package puts vimcommander under vim-addon-manager's control.
+
+That means that in order to use vimcommander, you must issue
+vim-addon install vimcommander
+as user after vimcommander is installed.
+
+You can also install it for all users by issuing
+vim-addon install --system-wide vimcommander
+
+For more information, see vim-addons (1).
+
