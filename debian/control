@@ -9,7 +9,7 @@ Vcs-Git: git://github.com/lpenz/vimcommander.git
 Homepage: http://github.com/lpenz/vimcommander
 
 Package: vimcommander
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}, vim-addon-manager (>= 0.4)
 Description: totalcommander-like two-panel tree file explorer for vim
  vimcommander opens two panels of file explorers on the top half of the vim
