@@ -12,7 +12,11 @@
 %:
 	dh  $@
 
+DEST=debian/vimcommander
+
 override_dh_auto_install:
-	mkdir -p debian/vimcommander/usr/share/vim/addons
-	cp -R doc plugin debian/vimcommander/usr/share/vim/addons
+	mkdir -p $(DESTDIR)/usr/share/vim/addons
+	cp -R doc plugin $(DESTDIR)/usr/share/vim/addons
+	mkdir -p $(DESTDIR)/usr/share/vim/registry
+	cp vimcommander.yaml $(DESTDIR)/usr/share/vim/registry
 
