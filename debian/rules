@@ -12,7 +12,7 @@
 %:
 	dh  $@
 
-DEST=debian/vimcommander
+DESTDIR=debian/vimcommander
 
 override_dh_auto_install:
 	mkdir -p $(DESTDIR)/usr/share/vim/addons
