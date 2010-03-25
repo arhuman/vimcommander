@@ -1,3 +1,10 @@
+vimcommander (0.80-1) unstable; urgency=low
+
+  * New upstream release: C-H no longer toggles hidden files, as its bind
+    overwrites backspace bind in some terminals; improved documentation.
+
+ -- Leandro Lisboa Penz <llpenz@gmail.com>  Tue, 23 Feb 2010 18:35:54 -0300
+
 vimcommander (0.79-1) unstable; urgency=low
 
   * New upstream release: cursor goes to newly-created directory.
