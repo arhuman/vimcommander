@@ -2,7 +2,7 @@
 SOURCE += doc/vimcommander.txt
 SOURCE += plugin/vimcommander.vim
 PROGRAM_NAME = "vimcommander"
-PROGRAM_VERSION = "0.80"
+PROGRAM_VERSION = "0.81"
 NAME = $(patsubst "%",%,$(PROGRAM_NAME))
 VERS = $(patsubst "%",%,$(PROGRAM_VERSION))
 
@@ -22,7 +22,7 @@ vba: $(NAME)_$(VERS).vba
 
 
 $(NAME)_$(VERS).vba: $(SOURCE)
-	vim -X --cmd 'let g:plugin_name="$@"' -s build.vim > /dev/null
+	vim -X --cmd 'let g:plugin_name="$@"' -s build.vim
 
 
 clean:
