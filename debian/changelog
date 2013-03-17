@@ -1,3 +1,9 @@
+vimcommander (0.81-1) UNRELEASED; urgency=low
+
+  * New upstream release: windows compatiblity in F-keys.
+
+ -- Leandro Lisboa Penz <llpenz@gmail.com>  Sat, 16 Mar 2013 23:42:04 -0300
+
 vimcommander (0.80-1) unstable; urgency=low
 
   * New upstream release: C-H no longer toggles hidden files, as its bind
