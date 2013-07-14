@@ -1,4 +1,10 @@
-vimcommander (0.81-1) UNRELEASED; urgency=low
+vimcommander (1.0-1) unstable; urgency=low
+
+  * New upstream release: cygwin fixes and pathonge/vundle support.
+
+ -- Leandro Lisboa Penz <lpenz@lpenz.org>  Sun, 14 Jul 2013 20:44:01 -0300
+
+vimcommander (0.81-1) unstable; urgency=low
 
   * New upstream release: windows compatiblity in F-keys.
 
